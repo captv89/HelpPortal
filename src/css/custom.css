@@ -1,0 +1,118 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @format
+ */
+
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #06808b;
+  --ifm-hero-background-color: #06808b;
+  --ifm-color-primary-dark: #036770;
+  --ifm-color-primary-darker: #035f68;
+  --ifm-color-primary-darkest: #014e55;
+  --ifm-color-primary-light: #2e99a3;
+  --ifm-color-primary-lighter: #43b9c4;
+  --ifm-color-primary-lightest: #6ae6f1e7;
+  --ifm-code-font-size: 95%;
+  --ifm-container-width: 1440px;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+img[alt=con] {
+  width:20px;
+  height:20px;
+}
+
+*:focus {
+  outline: none;
+}
+
+.container {
+  margin-left: 5%;
+  margin: 0 auto;
+}
+
+.docItemCol_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
+  max-width: 80% !important;
+}
+
+.video-container {
+  height: 0;
+  margin: 0;
+  margin-bottom: 30px;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer__links {
+  width: 75%;
+  float: right;
+}
+.footer__bottom {
+  width: 25%;
+}
+.footer__bottom > div {
+  text-align: left;
+}
+.footer--dark {
+  --ifm-footer-background-color: #20232a;
+  --ifm-footer-padding-vertical: 85px;
+}
+.footer__copyright {
+  font-size: .8em;
+  text-align: left;
+}
+
+.hero__title {
+  font-size: 5.0rem;
+  font-family: "Helvetica";
+}
+
+.spLogo {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.spLogo:hover {
+  animation-name: thumb;
+  animation-duration: 1000ms;
+  transform-origin:50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes thumb {
+  0% { -webkit-transform: rotate(3deg); }
+  50% { -webkit-transform: rotate(-3deg); }
+  100% { -webkit-transform: rotate(3deg); }
+}
+
+.spacer {
+  min-height: 50px;
+}
