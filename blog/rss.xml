@@ -4,14 +4,14 @@
         <title>Documentaion Site Blog</title>
         <link>https://example.com/blog</link>
         <description>Documentaion Site Blog</description>
-        <lastBuildDate>Fri, 02 Jul 2021 08:13:49 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jul 2021 08:17:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Key Features]]></title>
-            <link>https://example.com/blog/features</link>
+            <link>https://example.com/HelpPortal/blog/features</link>
             <guid>features</guid>
-            <pubDate>Fri, 02 Jul 2021 08:13:49 GMT</pubDate>
+            <pubDate>Fri, 02 Jul 2021 08:17:10 GMT</pubDate>
             <description><![CDATA[Lorem Ipsum]]></description>
         </item>
     </channel>
