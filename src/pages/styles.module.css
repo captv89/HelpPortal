@@ -17,8 +17,8 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(-45deg, #6ae9fa, #ebf871, #72fca7, #f7b34d);
-	background-size: 400% 400%;
+  background: linear-gradient(-45deg, #6ac0fa, #5096f1, #3aada8, #069980);
+  background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   min-height: 500px;
   /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); */
@@ -26,15 +26,17 @@
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media screen and (max-width: 966px) {
@@ -60,4 +62,3 @@
   height: 200px;
   width: 200px;
 }
-

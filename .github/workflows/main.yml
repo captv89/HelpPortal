@@ -34,8 +34,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: "Build App to Publish"
         run: |
-          yarn install
-          yarn run build
+          yarn
+          yarn build
           
       # Runs a set of commands using the runners shell  
       - name: Deploy 🚀

@@ -62,7 +62,7 @@ function Home() {
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <img className="spLogo" src={useBaseUrl('img/logo.png')} />
+          <img className="spLogo" src={useBaseUrl('img/feather.png')} />
           <p />
           <Type />
           <p className="spacer"/>

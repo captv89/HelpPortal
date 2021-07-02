@@ -75,7 +75,7 @@
             docsPluginId: 'default',
             dropdownItemsAfter: [
               {
-                to: '/versions',
+                to: '/',
                 label: 'All versions',
               },
             ],
