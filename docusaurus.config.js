@@ -12,7 +12,7 @@
   title: 'Documentaion Site',
   tagline: 'The best documentation site',
   url: 'https://example.com',
-  baseUrl: '/',
+  baseUrl: '/HelpPortal/',
   favicon: 'img/favicon.ico',
   organizationName: 'CaptV89', // Usually your GitHub org/user name.
   projectName: 'HelpDocs', // Usually your repo name.
