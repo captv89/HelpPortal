@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://example.com/blog</id>
+    <title>Documentaion Site Blog</title>
+    <updated>2021-07-02T08:13:49.130Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://example.com/blog"/>
+    <subtitle>Documentaion Site Blog</subtitle>
+    <icon>https://example.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Key Features]]></title>
+        <id>features</id>
+        <link href="https://example.com/blog/features"/>
+        <updated>2021-07-02T08:13:49.130Z</updated>
+        <summary type="html"><![CDATA[Lorem Ipsum]]></summary>
+    </entry>
+</feed>
